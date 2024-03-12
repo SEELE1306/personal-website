@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # vscode files
 .vscode/
+
+# Old astro config file
+astro.config.mjs
