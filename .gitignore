@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # Old astro config file
 astro.config.mjs
+
+# Old files
+src/pages/_index.astro.old
