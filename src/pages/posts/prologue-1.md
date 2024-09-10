@@ -13,6 +13,8 @@ tags: ["astro", "blogging", "learning in public"]
 
 I am still thinking of things I want to accomplish with my personal website, so expect this list to keep growing during the creation process.
 
+<img src="https://media.seele1306.com/38_i04.png" alt="38_i04" width="640"/>
+
 ## Targets
 
 Just about any knowledge I have acquired over the years that may sound interesting to you, I will try my best to share. I am far from the best person when it comes to journaling and blogging, but this might be the opportunity to change.
