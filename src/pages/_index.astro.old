@@ -1,7 +1,8 @@
 ---
-
+import Card from "~/src/components/Card.astro"
+import Layout from "~/src/layouts/Layout.astro"
 ---
-
+<!-- Old file -->
 <Layout title="Welcome to Astro.">
 	<main>
 		<svg
