@@ -27,6 +27,6 @@ pnpm-debug.log*
 astro.config.mjs
 
 # Old files
-src/pages/_index.astro.old
-src/components/_Card.astro.old
-src/layouts/_Layout.astro.old
+#src/pages/_index.astro.old
+#src/components/_Card.astro.old
+#src/layouts/_Layout.astro.old
