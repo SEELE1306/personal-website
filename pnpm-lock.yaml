@@ -11,6 +11,15 @@ importers:
       '@astrojs/check':
         specifier: ^0.5.7
         version: 0.5.7(typescript@5.4.2)
+      '@fontsource-variable/inter':
+        specifier: ^5.0.21
+        version: 5.0.21
+      '@fontsource-variable/playfair-display':
+        specifier: ^5.0.27
+        version: 5.0.27
+      '@fontsource-variable/roboto-mono':
+        specifier: ^5.0.21
+        version: 5.0.21
       astro:
         specifier: ^4.13.1
         version: 4.13.1(typescript@5.4.2)
@@ -18,6 +27,9 @@ importers:
         specifier: ^5.4.2
         version: 5.4.2
     devDependencies:
+      '@unocss/preset-uno':
+        specifier: ^0.62.3
+        version: 0.62.3
       '@unocss/reset':
         specifier: ^0.58.5
         version: 0.58.5
@@ -465,6 +477,15 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource-variable/inter@5.0.21':
+    resolution: {integrity: sha512-1spQ5vjooBWzUSdug8njhxi0lDpIDGVV4q9Piv32X5wIati/5OvESsIxOM0kDZVWzl0uSR8kHOmsqoP8A6WqVA==}
+
+  '@fontsource-variable/playfair-display@5.0.27':
+    resolution: {integrity: sha512-VQ7YOmWSvE+ZPg6tP7KtPUIM5in25/fnH+0Y74Z126hGQoan4gIhr557grh5RyIeakIptYizzcj36RJIksrQ9w==}
+
+  '@fontsource-variable/roboto-mono@5.0.21':
+    resolution: {integrity: sha512-srrK1tPimsjv/vj7m5NpK8KdQPuHigq7XbTf1V/YCWg5oslE5xqHbg0CRJjhpSJNEmNxCgKQFSAJjW28BBNHEQ==}
+
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
 
@@ -756,8 +777,14 @@ packages:
   '@unocss/core@0.58.5':
     resolution: {integrity: sha512-qbPqL+46hf1/UelQOwUwpAuvm6buoss43DPYHOPdfNJ+NTWkSpATQMF0JKT04QE0QRQbHNSHdMe9ariG+IIlCw==}
 
+  '@unocss/core@0.62.3':
+    resolution: {integrity: sha512-Pfyrj8S7jq9K1QXD6Z5BCeiQavaHpbMN5q958/kmdbNGp57hOg1e346fMJAvgPjLBR+lE/hgZEsDrijtRiZXnw==}
+
   '@unocss/extractor-arbitrary-variants@0.58.5':
     resolution: {integrity: sha512-KJQX0OJKzy4YjJo09h2la2Q+cn5IJ1JdyPVJJkzovHnv7jSBWzsfct+bj/6a+SJ4p4JBIqEJz3M/qxHv4EPJyA==}
+
+  '@unocss/extractor-arbitrary-variants@0.62.3':
+    resolution: {integrity: sha512-9ZscWyXEwDZif+b56xZyJFHwJOjdMXmj+6x96jOsnRNBzwT9eW7YcGCErP1ih/q1S6KmuRrHM/JOXMBQ6H4qlw==}
 
   '@unocss/inspector@0.58.5':
     resolution: {integrity: sha512-cbJlIHEZ14puTtttf7sl+VZFDscV1DJiSseh9sSe0xJ/1NVBT9Bvkm09/1tnpLYAgF5gfa1CaCcjKmURgYzKrA==}
@@ -777,6 +804,9 @@ packages:
   '@unocss/preset-mini@0.58.5':
     resolution: {integrity: sha512-WqD31fKUAN28OCUOyi1uremmLk0eTMqtCizjbbXsY/DP6RKYUT7trFAtppTcHWFhSQcknb4FURfAZppACsTVQQ==}
 
+  '@unocss/preset-mini@0.62.3':
+    resolution: {integrity: sha512-dn/8ubeW2ry/ZF3iKxdQHnS0l3EBibt0rIOE/XVwx24ub6pRzclU4r7xHnXeqvAFOO9PoiKDGgFR92m6R2MxyQ==}
+
   '@unocss/preset-tagify@0.58.5':
     resolution: {integrity: sha512-UB9IXi8vA/SzmmRLMWR7bzeBpxpiRo7y9xk3ruvDddYlsyiwIeDIMwG23YtcA6q41FDQvkrmvTxUEH9LFlv6aA==}
 
@@ -786,17 +816,27 @@ packages:
   '@unocss/preset-uno@0.58.5':
     resolution: {integrity: sha512-vgq/R4f7RDmdROy+pX+PeE38I3SgYKd4LL7Wb1HJUaVwz7PkF0XHCynOTbwrPXnK1kp1cnZYYEww7/RiYp+IQQ==}
 
+  '@unocss/preset-uno@0.62.3':
+    resolution: {integrity: sha512-RlsrMlpEzoZqB0lr5VvlkHGpEgr0Vp6z4Q/7DjW5t7mi20Z2i8olaLGWM0TO1wKoRi8bxc6HP0RHUS7pHtZxBA==}
+
   '@unocss/preset-web-fonts@0.58.5':
     resolution: {integrity: sha512-WKZ5raSClFXhqzfAhApef3+fuMq6cjKBxvhJ1FBIxFKcSOvN8e2czty2iGQVl02yMsxBWMv0Bpfm7np+cCoI1w==}
 
   '@unocss/preset-wind@0.58.5':
     resolution: {integrity: sha512-54RkjLmlqMUlC8o8nDCVzB25D1zzK4eth+/3uQzt739qU0U92NxuZKY21ADj9Rp/mVhKBV5FKuXPjmYc6yTQRQ==}
 
+  '@unocss/preset-wind@0.62.3':
+    resolution: {integrity: sha512-6+VNce1he1U5EXKlXRwTIPn8KeK6bZ2jAEgcCxk8mFy8SzOlLeYzXCI9lcdiWRTjIeIiK5iSaUqmsQFtKdTyQg==}
+
   '@unocss/reset@0.58.5':
     resolution: {integrity: sha512-2wMrkCj3SSb5hrx9TKs5jZa34QIRkHv9FotbJutAPo7o8hx+XXn56ogzdoUrcFPJZJUx2R2nyOVbSlGMIjtFtw==}
 
   '@unocss/rule-utils@0.58.5':
     resolution: {integrity: sha512-w0sGJoeUGwMWLVFLEE9PDiv/fQcQqZnTIIQLYNCjTdqXDRlwTp9ACW0h47x/hAAIXdOtEOOBuTfjGD79GznUmA==}
+    engines: {node: '>=14'}
+
+  '@unocss/rule-utils@0.62.3':
+    resolution: {integrity: sha512-qI37jHH//XzyR5Y2aN3Kpo4lQrQO+CaiXpqPSwMLYh2bIypc2RQVpqGVtU736x0eA6IIx41XEkKzUW+VtvJvmg==}
     engines: {node: '>=14'}
 
   '@unocss/scope@0.58.5':
@@ -2768,6 +2808,12 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
+  '@fontsource-variable/inter@5.0.21': {}
+
+  '@fontsource-variable/playfair-display@5.0.27': {}
+
+  '@fontsource-variable/roboto-mono@5.0.21': {}
+
   '@iconify/types@2.0.0': {}
 
   '@iconify/utils@2.1.22':
@@ -3023,9 +3069,15 @@ snapshots:
 
   '@unocss/core@0.58.5': {}
 
+  '@unocss/core@0.62.3': {}
+
   '@unocss/extractor-arbitrary-variants@0.58.5':
     dependencies:
       '@unocss/core': 0.58.5
+
+  '@unocss/extractor-arbitrary-variants@0.62.3':
+    dependencies:
+      '@unocss/core': 0.62.3
 
   '@unocss/inspector@0.58.5':
     dependencies:
@@ -3062,6 +3114,12 @@ snapshots:
       '@unocss/extractor-arbitrary-variants': 0.58.5
       '@unocss/rule-utils': 0.58.5
 
+  '@unocss/preset-mini@0.62.3':
+    dependencies:
+      '@unocss/core': 0.62.3
+      '@unocss/extractor-arbitrary-variants': 0.62.3
+      '@unocss/rule-utils': 0.62.3
+
   '@unocss/preset-tagify@0.58.5':
     dependencies:
       '@unocss/core': 0.58.5
@@ -3078,6 +3136,13 @@ snapshots:
       '@unocss/preset-wind': 0.58.5
       '@unocss/rule-utils': 0.58.5
 
+  '@unocss/preset-uno@0.62.3':
+    dependencies:
+      '@unocss/core': 0.62.3
+      '@unocss/preset-mini': 0.62.3
+      '@unocss/preset-wind': 0.62.3
+      '@unocss/rule-utils': 0.62.3
+
   '@unocss/preset-web-fonts@0.58.5':
     dependencies:
       '@unocss/core': 0.58.5
@@ -3089,12 +3154,23 @@ snapshots:
       '@unocss/preset-mini': 0.58.5
       '@unocss/rule-utils': 0.58.5
 
+  '@unocss/preset-wind@0.62.3':
+    dependencies:
+      '@unocss/core': 0.62.3
+      '@unocss/preset-mini': 0.62.3
+      '@unocss/rule-utils': 0.62.3
+
   '@unocss/reset@0.58.5': {}
 
   '@unocss/rule-utils@0.58.5':
     dependencies:
       '@unocss/core': 0.58.5
       magic-string: 0.30.8
+
+  '@unocss/rule-utils@0.62.3':
+    dependencies:
+      '@unocss/core': 0.62.3
+      magic-string: 0.30.11
 
   '@unocss/scope@0.58.5': {}
 
